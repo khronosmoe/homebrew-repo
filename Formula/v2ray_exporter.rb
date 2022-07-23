@@ -29,7 +29,7 @@ class V2rayExporter < Formula
     run [opt_bin/"v2ray_exporter_brew_services"]
     keep_alive false
     log_path var/"log/v2ray_exporter.log"
-    error_log_path var/"log/v2ray_exporter.err.log"
+    error_log_path var/"log/v2ray_exporter.log"
   end
 
   test do
