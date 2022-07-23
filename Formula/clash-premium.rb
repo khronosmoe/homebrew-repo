@@ -28,7 +28,7 @@ class ClashPremium < Formula
     run [bin/"clash", "-d", etc/"clash"]
     keep_alive true
     log_path var/"log/clash.log"
-    error_log_path var/"log/clash.err.log"
+    error_log_path var/"log/clash.log"
   end
 
 end
